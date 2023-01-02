@@ -36,7 +36,6 @@ Additionally, we will obtain the maximum and minimum dates to get an idea of ​
 import pandas as pd
 
 #Import dataset dates from github
-#url = '/content/drive/MyDrive/Colab Notebooks/datasets/birthdates.csv'
 url = "https://raw.githubusercontent.com/mabrotons/datasets/master/birthdates.csv"
 
 
