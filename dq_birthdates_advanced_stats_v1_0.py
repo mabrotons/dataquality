@@ -98,7 +98,7 @@ bad_ages = df.loc[(df['zscore'] > 3) | (df['zscore'] < -3)]['ages']
 
 plt.hist([good_ages, regular_ages ,bad_ages], color=['Green', 'Orange', 'Red'], label=['good', 'regular', 'bad'], edgecolor='black', bins=60, histtype='barstacked')
 
-#add horizontal line at mean value of x
+#add vertical line at mean value of x
 plt.axvline(x=mean_ages, color='blue', linewidth=3, label='mean')
 
 plt.title("Ages")
