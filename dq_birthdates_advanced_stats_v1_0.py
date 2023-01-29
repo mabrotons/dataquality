@@ -133,7 +133,6 @@ Firstly, we are going to define and fit the model. We have to instance Isolation
 from sklearn.ensemble import IsolationForest
 import numpy as np
 
-random_state =np.random.RandomState(42)
 model = IsolationForest(n_estimators = 1000, max_samples = 'auto', contamination=float(0.1))
 print(model.get_params())
 
